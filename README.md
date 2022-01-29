@@ -1,8 +1,8 @@
-#SVG icons
+# SVG icons
 Create some SVG icons and build a website using the SVG icons.
 
 ## Making SVG Icons
-TODO: Create some SVG icons using Adobe Illustrator and well-build HTML and CSS. Also, add some simple interactivity with JavaScript. After that, All things that you made upload on Github.
+TODO: Create some SVG icons using Adobe Illustrator and well-built HTML and CSS. Also, add some simple interactivity with JavaScript. After that, all things that you made upload on Github.
 
 ## Contributing
 
