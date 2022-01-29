@@ -6,29 +6,234 @@
   box-sizing: border-box;
 }
 
-body { font-size: 16px; }
+body {
+  font-size: 16px;
+  background: url(../images/bg.jpg);
+  background-size: contain;
+}
+
+h1, h2, h3 {
+  font-family: 'Indie Flower', sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  cursor: pointer;
+}
+
+p {
+  font-family: 'Indie Flower', sans-serif;
+  font-size: 1em;
+  text-align: center;
+}
 
 .hidden { display: none; }
 
+#theMainHeading:hover {
+  color: #ff7a36;
+}
+
+#theHeading2:hover {
+  color: #ff7a36;
+}
+
 .main-heading {
-  color: blue;
+  color: Black;
   cursor: pointer;
-
   text-align: center;
-  font-family: 'Lobster', cursive;
-
-  /* em is a relative unit based on the font size you set on the body */
+  font-family: 'Indie Flower', cursive;
   font-size: 3em;
 }
 
+.main-heading2 {
+  color: Black;
+  cursor: pointer;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+
 #svg-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr repeat(2, minmax(auto, 30em)) 1fr;
   grid-template-rows: auto;
   grid-gap: 20px;
 }
 
-.container { display: flex; }
+  .one-item {
+    display: grid;
+    grid-column: 2 / span 2;
+    grid-template-columns: 1fr;
+  }
+
+  .four-icons {
+    display: grid;
+    grid-column: 2 / span 2;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-evenly;
+    row-gap: 2em;
+    column-gap: 2em;
+  }
+
+
+
+
+/* .container { display: flex; } */
 
 /* descendant selector: every img element inside EVERY element with a class of container */
-.container img { width: 100%; }
+.container img {
+  width: 100%;
+  align-items: center;
+ }
+
+.margin-top {
+  margin-top: 5em;
+}
+
+.marginT {
+  margin-top: 2em;
+}
+
+.margin-bt {
+  margin-bottom: 5em;
+}
+
+.textA {
+  font-size: .5em;
+  text-align: right;
+}
+
+.textB {
+  font-size: 1em;
+  text-align: center;
+}
+
+#ratIcon:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 3s ease-out;
+  transform: translateX(-50px);
+}
+
+#theRat:hover {
+  color: #ff7a36
+}
+
+#oxIcon:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 3s ease;
+  transform: translateY(50px);
+}
+
+#theOx:hover {
+  color: #ff7a36
+}
+
+#tigerIcon:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 3s ease-in;
+  transform: translateY(-50px);
+}
+
+#theTiger:hover {
+  color: #ff7a36
+}
+
+#rabbitIcon:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 3s ease-in-out;
+  transform: translateX(50px);
+}
+
+#theRabbit:hover {
+  color: #ff7a36
+}
+
+#dragonIcon:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 3s ease-out;
+  transform: scale(1.5);
+}
+
+#theDragon:hover {
+  color: #ff7a36
+}
+
+#snakeIcon:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 3s ease;
+  transform: scale(0.7);
+}
+
+#theSnake:hover {
+  color: #ff7a36
+}
+
+#horseIcon:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 3s ease-in;
+  transform: translate3d(10px, 20px, 30px);
+}
+
+#theHorse:hover {
+  color: #ff7a36
+}
+
+#goatIcon:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 3s ease-in-out;
+  transform: rotate(180deg);
+}
+
+#theGoat:hover {
+  color: #ff7a36
+}
+
+#monkeyIcon:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 3s ease-out;
+  transform: rotate(-180deg);
+}
+
+#theMonkey:hover {
+  color: #ff7a36
+}
+
+#roosterIcon:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 3s ease;
+  transform: rotate3d(2,2,2, 60deg);
+}
+
+#theRooster:hover {
+  color: #ff7a36
+}
+
+#dogIcon:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 3s ease-in;
+  transform: skew(-25deg, -15deg);
+}
+
+#theDog:hover {
+  color: #ff7a36
+}
+
+#pigIcon:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 3s ease-in-out;
+  transform: rotate3d(2,5,3, -50deg);
+}
+
+#thePig:hover {
+  color: #ff7a36
+}
