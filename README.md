@@ -7,10 +7,10 @@ TODO: Create some SVG icons using Adobe Illustrator and well-built HTML and CSS.
 ## Contributing
 
     * Fork it!
-    - Create your feature branch: git checkout -b my-new-feature
-    + Commit your changes: git commit -am 'Add some feature'
+    * Create your feature branch: git checkout -b my-new-feature
+    * Commit your changes: git commit -am 'Add some feature'
     * Push to the branch: git push origin my-new-feature
-    - Submit a pull request :D
+    * Submit a pull request :D
 
 ## License
 MIT
